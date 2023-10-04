@@ -1,0 +1,14 @@
+Algorithme-ex-25
+
+Variable n, i,m: entier
+Début
+Repeter
+Ecrire ("svp done un nombre: ")
+Lire (n)
+jusqu a n > 0 alors
+m <-- 1
+Pour i <-- 1 à n pas 1 faire
+m <-- m * i
+Ecrire ("La factorielle est : , m)
+fin Pour
+Fin
